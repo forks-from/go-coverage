@@ -118,7 +118,7 @@ func Test_findFile(t *testing.T) {
 		want    string
 		wantErr bool
 	}{
-		{"file from this package", args{file: "github.com/gojek/go-coverage/go_coverage.go"}, path + "/go_coverage.go", false},
+		{"file from this package", args{file: "github.com/forks-from/go-coverage/go_coverage.go"}, path + "/go_coverage.go", false},
 		{"invalid file", args{file: "go_coverage_unknown.go"}, "", true},
 
 	}

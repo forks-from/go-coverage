@@ -1,6 +1,6 @@
-module github.com/gojek/go-coverage
+module github.com/forks-from/go-coverage
 
-go 1.16
+go 1.21.0
 
 require (
 	github.com/cpuguy83/go-md2man/v2 v2.0.1 // indirect
